@@ -17,3 +17,8 @@ local.properties
 
 # Android studio project directory
 .idea/
+
+# Wasn't auto generated
+.gradle
+.DS_Store
+/build
