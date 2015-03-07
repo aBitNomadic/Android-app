@@ -20,6 +20,8 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.google.gson.Gson;
+
 /**
  * Created by andcolem on 7/3/13.
  */
@@ -51,6 +53,9 @@ public class QueueActivity extends Activity {
                 JSONObject json = new JSONObject(input);
                 JSONObject main = json.getJSONObject("main");
                 JSONArray queue = main.getJSONArray("queue");
+                Gson gson = new Gson();
+                String mang = gson.fromJson(input, String.class);
+
 
 				for (int i = 0; i < queue.length(); i++) {
 					JSONObject obj = queue.getJSONObject(i);

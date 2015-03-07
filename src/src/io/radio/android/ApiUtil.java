@@ -8,6 +8,8 @@ import org.json.JSONObject;
 
 import android.text.Html;
 
+import com.google.gson.Gson;
+
 public class ApiUtil {
 	public static final int NPUPDATE = 0;
 	public static final int ACTIVITYCONNECTED = 1;
@@ -20,6 +22,8 @@ public class ApiUtil {
     public static final int REMOTEMUSICPLAY = 2;
     public static final int REMOTEMUSICPLAYPAUSE = 3;
 
+    public static final Gson gson = new Gson();
+
     /**
      * Gets the primary API response: /
      * @param jsonString a JSON API string
@@ -27,12 +31,19 @@ public class ApiUtil {
      * @throws Exception
      */
     public static ApiPacket getMain(String jsonString) throws Exception {
-		
+
+        String asdf = "asdf";
+        String ayy = gson.toJson(jsonString);
+        ApiResponse resp = gson.fromJson(jsonString, ApiResponse.class);
     	JSONObject json = new JSONObject(jsonString);
     	ApiPacket packet = new ApiPacket(json);
-		
+
 		return packet;
 	}
+
+    public void parseApiCall(String jsonString) throws Exception {
+
+    }
 
     private static Track[] getTracks(JSONArray JSONarray) {
         ArrayList<Track> list = new ArrayList<Track>();

@@ -312,8 +312,7 @@ public class RadioService extends Service implements OnPreparedListener,
 				URL apiURl = new URL(getString(R.string.mainApiURL));
 				BufferedReader in = new BufferedReader(new InputStreamReader(
 						apiURl.openStream()));
-				String input = "";
-				String inputLine;
+				String inputLine, input = "";
 				while ((inputLine = in.readLine()) != null)
 					input += inputLine;
 				in.close();
