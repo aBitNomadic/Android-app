@@ -122,7 +122,7 @@ public class MainActivity extends Activity {
 		public void handleMessage(Message msg) {
 			if (msg.what == ApiUtil.NPUPDATE) {
 				ApiPacket packet = (ApiPacket) msg.obj;
-//				MainActivity.this.updateNP(packet);
+				MainActivity.this.updateNP(packet);
 			}
 			if (msg.what == ApiUtil.PROGRESSUPDATE) {
 				progress++;
