@@ -32,17 +32,15 @@ public class ApiUtil {
      */
     public static ApiPacket getMain(String jsonString) throws Exception {
 
-        String asdf = "asdf";
-        String ayy = gson.toJson(jsonString);
-        ApiResponse resp = gson.fromJson(jsonString, ApiResponse.class);
+        ApiResponse resp = parseApiCall(jsonString);
     	JSONObject json = new JSONObject(jsonString);
     	ApiPacket packet = new ApiPacket(json);
 
 		return packet;
 	}
 
-    public void parseApiCall(String jsonString) throws Exception {
-
+    public static ApiResponse parseApiCall(String jsonString) throws Exception {
+        return gson.fromJson(jsonString, ApiResponse.class);
     }
 
     private static Track[] getTracks(JSONArray JSONarray) {

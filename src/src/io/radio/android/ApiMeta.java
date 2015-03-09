@@ -3,11 +3,14 @@ package io.radio.android;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
+
 public class ApiMeta {
-	public int length;
-	public int offset;
-	public int limit;
-	public String stream;
+    public int length;
+    public int offset;
+    public int limit;
+    public ArrayList<String> routes;
+    public String stream;
 	
 	/**
 	 * 

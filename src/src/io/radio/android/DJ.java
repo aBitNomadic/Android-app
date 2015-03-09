@@ -15,13 +15,12 @@ public class DJ {
     public String role;
     public int theme_id;
 
-
 	public String name;
 //	public int id;
 //
-//	public DJ(JSONObject json) throws JSONException
-//	{
-//		this.name = json.getString("djname");
-//		this.id = json.getInt("id");
-//	}
+	public DJ(JSONObject json) throws JSONException
+	{
+		this.name = json.getString("djname");
+		this.id = json.getInt("id");
+	}
 }
