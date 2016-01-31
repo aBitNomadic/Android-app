@@ -34,10 +34,10 @@
         </activity>
         <activity
             android:name=".SearchActivity"
-            android:screenOrientation="portrait"
             android:label="Request"
+            android:launchMode="singleTop"
             android:parentActivityName=".MainActivity"
-            android:launchMode="singleTop">
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
             </intent-filter>
@@ -51,14 +51,14 @@
 
         </activity>
         <activity android:name=".QueueActivity"
-                  android:screenOrientation="portrait"
                   android:label="Queue"
-                android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
         <activity android:name=".LastPlayedActivity"
-                  android:screenOrientation="portrait"
-
                   android:label="Last Played"
-                android:parentActivityName=".MainActivity"/>
+
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
 
         <service android:name=".RadioService" />
 
