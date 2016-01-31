@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Favorites">
+        <EditTextPreference
+            android:key="username"
+            android:shouldDisableView="false"
+            android:summary="Nickname used in IRC"
+            android:title="User Name" />
+        <EditTextPreference
+            android:key="authcode"
+            android:summary="Authcodes are given out by Hanyuu-sama on IRC"
+            android:title="Authentication Code" />
+        <MultiSelectListPreference
+            android:entries="@array/faveDjsList"
+            android:entryValues="@array/faveDjsListValues"
+            android:key="faveDjs"
+            android:summary="Manage your favorite DJ's list"
+            android:title="Favorite DJ's" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Visualizer">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="waveVisEnabled"
+            android:summary="Enable the waveform visualizer"
+            android:title="Waveform Visualizer" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="dBGraphEnabled"
+            android:summary="Enable the dB Bar Graph (still in development)"
+            android:title="dB Bar Graph" />
+    </PreferenceCategory>
+</PreferenceScreen>

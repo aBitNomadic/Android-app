@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lp_layout.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\layout\\lp_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\request_row.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\layout\\request_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\player_intro_toast_layout.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\layout\\player_intro_toast_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\request_row.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\layout\\request_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\track_tableview.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\layout\\track_tableview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\request_layout.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\layout\\request_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\request_layout.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\layout\\request_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\player_layout.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\layout\\player_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\player_layout.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\layout\\player_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\drawer_list_item.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\layout\\drawer_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\queue_layout.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\layout\\queue_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\track_tableview.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\layout\\track_tableview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\drawer_list_item.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\layout\\drawer_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lp_layout.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\layout\\lp_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\player_intro_toast_layout.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\layout\\player_intro_toast_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_layout.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\layout\\widget_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\queue_layout.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\layout\\queue_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_layout.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\layout\\widget_layout.xml"
+    }
+]

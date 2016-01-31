@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_gradient.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\drawable\\white_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\widget_bg.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\drawable\\widget_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_gradient.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\drawable\\white_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\widget_bg.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\drawable\\widget_bg.xml"
+    }
+]

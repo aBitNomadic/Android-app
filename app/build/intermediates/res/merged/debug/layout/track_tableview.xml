@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:stretchColumns="*">
+
+    <TextView
+        android:id="@+id/track_artistName"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="uugu"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/track_songName"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+
+        android:autoText="false"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="uguu"
+        android:textAlignment="center" />
+</TableRow>
+
+    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->

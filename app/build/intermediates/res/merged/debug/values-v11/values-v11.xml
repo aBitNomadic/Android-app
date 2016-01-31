@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_height">30dp</dimen>
+    <dimen name="widget_width">250dp</dimen>
+    <style name="AppTheme" parent="android:Theme.Holo.Light"/>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/songName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/requestButton"
+        android:padding="10dp"
+        android:singleLine="false"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/artistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/songName"
+        android:layout_toLeftOf="@+id/requestButton"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/requestButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonAlign"
+        android:layout_alignParentRight="true"
+        android:enabled="false"
+        android:text="Request" />
+
+    <TextView
+        android:id="@+id/songId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/lastPlayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/artistName"
+        android:layout_toRightOf="@+id/textView"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/lastRequested"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lastPlayed"
+        android:layout_toRightOf="@+id/textView2"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lastRequested"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/lastPlayed"
+        android:layout_toLeftOf="@+id/lastRequested"
+        android:padding="10dp"
+        android:text="Last Played: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView"
+        android:padding="10dp"
+        android:text="Last Requested: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/buttonAlign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:height="50dp"
+        android:text="New Text"
+        android:visibility="invisible" />
+</RelativeLayout>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\xml\\widget_provider.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\xml\\widget_provider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\xml\\app_settings.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\xml\\app_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\xml\\widget_provider.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\xml\\widget_provider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\xml\\searchable.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\xml\\searchable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\xml\\searchable.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\xml\\searchable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\xml\\app_settings.xml",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\xml\\app_settings.xml"
+    }
+]

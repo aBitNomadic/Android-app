@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg">
+
+    <ImageView
+        android:id="@+id/widget_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginBottom="1px"
+        android:layout_marginLeft="1px"
+        android:layout_marginRight="1px"
+        android:layout_marginTop="1px"
+        android:alpha="1"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/testimage" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right"
+        android:background="@drawable/white_gradient"
+        android:gravity="right">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toLeftOf="@+id/widget_icon"
+            android:baselineAligned="false"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/widget_SongLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:layout_marginBottom="-5dp"
+                android:ellipsize="end"
+                android:lines="1"
+                android:shadowColor="#6f000000"
+                android:shadowDx="3.0"
+                android:shadowDy="3.0"
+                android:shadowRadius="3.0"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#e3e3e3"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/widget_SongElapsed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:layout_marginBottom="-5dp"
+                android:ellipsize="end"
+                android:lines="1"
+                android:shadowColor="#6f000000"
+                android:shadowDx="3.0"
+                android:shadowDy="3.0"
+                android:shadowRadius="3.0"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#e3e3e3"
+                android:textSize="12sp" />
+
+            <ProgressBar
+                android:id="@+id/widget_ProgressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-5dp"
+                android:layout_marginRight="8dp"
+                android:progress="60" />
+
+            <TextView
+                android:id="@+id/widget_NowPlaying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:ellipsize="end"
+                android:lines="1"
+                android:shadowColor="#9f000000"
+                android:shadowDx="3.0"
+                android:shadowDy="3.0"
+                android:shadowRadius="3.0"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#e3e3e3"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/widget_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="15dp"
+            android:alpha="0.9"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher" />
+
+    </RelativeLayout>
+
+</FrameLayout>

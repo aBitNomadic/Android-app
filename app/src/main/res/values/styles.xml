@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Widget.Holo.Button.Borderless" />
+
+    <style name="MarginlessImageButton" parent="android:Widget.ImageButton">
+        <item name="android:background">@null</item>
+    </style>
+</resources>

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_share.png",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\drawable-ldpi\\ic_menu_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_media_play.png",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\drawable-ldpi\\ic_media_play.png"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_media_pause.png",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\drawable-ldpi\\ic_media_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher_disabled.png",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher_disabled.png"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_media_play.png",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\drawable-ldpi\\ic_media_play.png"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_media_pause.png",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\Android-app\\app\\src\\main\\res\\drawable-ldpi\\ic_media_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher_disabled.png",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher_disabled.png"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_share.png",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\drawable-ldpi\\ic_menu_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Brad\\StuidoProjects\\temp\\Android-app\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    }
+]
